@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211ee2a9-9978-46e9-9eea-1db83337c913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/DriverEvent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageTwo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/finall/lab/DriverEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/finall/lab/MainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/SortTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +43,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="finall.lab" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fizik\IdeaProjects\my_example_project\src\test\resources" />
     </key>

@@ -17,8 +17,8 @@ public class TestToPageThree {
                 this.driver = driver;
         }
 
-        private final static String NUMBER_DEPART = "360";
-        private final static String NUMBER_RETURN = "360";
+        private final static String NUMBER_DEPART = "361";
+        private final static String NUMBER_RETURN = "631";
 
         @FindBy(xpath = ".//td[@class='frame_action_xrows']//input[contains(@value, '$" + NUMBER_DEPART + "')]")
         private

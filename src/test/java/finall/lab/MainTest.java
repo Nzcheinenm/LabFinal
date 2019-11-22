@@ -17,7 +17,12 @@ public class MainTest {
                 new TestToPageOne(driver).login("test1","test1");
                 new TestToPageTwo(driver).flightFinder();
                 new TestToPageThree(driver).choise();
-                new TestToPageFour(driver).buyFlight("Ivan","Ivanov","23232323");
+                new TestToPageFour(driver).buyFlight("Ivan",
+                    "Ivanov",
+                    "Tanya",
+                    "Ivanova",
+                    "3400 9934 5499 3400");
+                new TestToPageFinal(driver).goToHome();
         }
 
 

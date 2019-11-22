@@ -17,6 +17,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
                         this.driver = driver;
                 }
 
+                private final static String PASSENGERS = "2";
+
                 private final static String DEPART_DAY = "2";
                 private final static String DEPART_MONTH = "10";
                 private final static String DEPART_PLACE = "Acapulco";
@@ -25,7 +27,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
                 private final static String ARRIV_MONTH = "4";
                 private final static String ARRIV_PLACE = "New York";
 
-                private final static String PASSENGERS = "2";
+
                 private final static String SERVICE_CLASS = "Business"; // Coach / First
                 private final static String AIRLINE = "2";
 
