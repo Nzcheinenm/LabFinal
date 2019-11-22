@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211ee2a9-9978-46e9-9eea-1db83337c913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/DriverEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finall/lab/TestToPageTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/SortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Sorting.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,6 +34,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fizik\IdeaProjects\my_example_project\src\test\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest">
+  <component name="RunManager" selected="JUnit.MainTest.mainTest">
     <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Sorting" />
       <module name="my_example_project" />
@@ -50,6 +62,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_example_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finall.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finall.lab" />
+      <option name="MAIN_CLASS_NAME" value="finall.lab.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_example_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finall.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finall.lab" />
+      <option name="MAIN_CLASS_NAME" value="finall.lab.MainTest" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,49 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.TestingInSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestToPageOne.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_example_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="finall.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.SortTest" />
-      <option name="METHOD_NAME" value="TestingInSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.TestingInTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my_example_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.SortTest" />
-      <option name="METHOD_NAME" value="TestingInTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.Well" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my_example_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.SortTest" />
-      <option name="METHOD_NAME" value="Well" />
+      <option name="PACKAGE_NAME" value="finall.lab" />
+      <option name="MAIN_CLASS_NAME" value="finall.lab.TestToPageOne" />
+      <option name="METHOD_NAME" value="mainTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.mainTest" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.TestToPageOne.mainTest" />
         <item itemvalue="JUnit.SortTest" />
         <item itemvalue="Application.Sorting" />
-        <item itemvalue="JUnit.SortTest.TestingInTime" />
-        <item itemvalue="JUnit.SortTest.Well" />
-        <item itemvalue="JUnit.SortTest.TestingInSort" />
       </list>
     </recent_temporary>
   </component>
