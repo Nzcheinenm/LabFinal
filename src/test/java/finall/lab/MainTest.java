@@ -1,6 +1,8 @@
 package finall.lab;
 
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -14,14 +16,23 @@ public class MainTest {
         @Test
         public void mainTest() {
 
-                new TestToPageOne(driver).login("test1","test1");
-                new TestToPageTwo(driver).flightFinder();
+                new TestToPageOne(driver).login("test1", "test1");
+                new TestToPageLogin(driver).flightFinder();
                 new TestToPageThree(driver).choise();
-                new TestToPageFour(driver).buyFlight("Ivan",
-                    "Ivanov",
-                    "Tanya",
-                    "Ivanova",
-                    "3400 9934 5499 3400");
+                new TestToPageFour(driver)
+                    .buyFlight("Ivan",
+                        "Ivanov",
+                        "5445455445544545")
+                    .buyFlightPassangersTwo("Tanya", "Ivanova")
+                    .billingAdress("Kudryvceva, 56",
+                        "Ryazan",
+                        "Ryazan",
+                        "390000")
+                    .deliveryAdress("Kudryvceva, 56",
+                        "Ryazan",
+                        "Ryazan",
+                        "390000")
+                    .clickToPurchase();
                 new TestToPageFinal(driver).goToHome();
         }
 

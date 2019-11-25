@@ -78,7 +78,7 @@ public class DriverEvent implements WebDriverEventListener {
 
         @Override
         public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
-                System.out.println("Нажали на кнопку" + webElement);
+                System.out.println("Нажали на кнопку - " + webElement);
         }
 
         @Override
@@ -93,7 +93,7 @@ public class DriverEvent implements WebDriverEventListener {
 
         @Override
         public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-                System.out.println("Ввели данные - " + charSequences);
+                System.out.println("Ввели данные - ");
         }
 
         @Override

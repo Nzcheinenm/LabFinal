@@ -31,7 +31,7 @@ class TestToPageOne {
         WebElement signIn;
 
 
-        TestToPageOne login(String login, String passwordLog) {
+        TestToPageOne login(final String login, final String passwordLog) {
 
                 final WebDriverWait wait = new WebDriverWait(driver, 5);
 

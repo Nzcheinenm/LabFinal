@@ -7,12 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-        public class TestToPageTwo {
+        public class TestToPageLogin {
 
 
                 WebDriver driver;
 
-                TestToPageTwo(WebDriver driver) {
+                TestToPageLogin(WebDriver driver) {
                         PageFactory.initElements(driver,this);
                         this.driver = driver;
                 }
