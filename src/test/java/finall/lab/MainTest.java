@@ -1,5 +1,6 @@
 package finall.lab;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,22 +17,14 @@ public class MainTest {
         @Test
         public void mainTest() {
 
-                new TestToPageOne(driver).login("test1", "test1");
-                new TestToPageLogin(driver).flightFinder();
+                new TestToPageLogin(driver).login("test1", "test1");
+                new TestToPageTwo(driver).flightFinder();
                 new TestToPageThree(driver).choise();
                 new TestToPageFour(driver)
-                    .buyFlight("Ivan",
-                        "Ivanov",
-                        "5445455445544545")
-                    .buyFlightPassangersTwo("Tanya", "Ivanova")
-                    .billingAdress("Kudryvceva, 56",
-                        "Ryazan",
-                        "Ryazan",
-                        "390000")
-                    .deliveryAdress("Kudryvceva, 56",
-                        "Ryazan",
-                        "Ryazan",
-                        "390000")
+                    .buyFlight()
+                    .buyFlightPassangersTwo()
+                    .billingAdress()
+                    .deliveryAdress()
                     .clickToPurchase();
                 new TestToPageFinal(driver).goToHome();
         }
@@ -39,7 +32,7 @@ public class MainTest {
 
         @Before
         public void beforeMain() {
-                System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
 
                 EventFiringWebDriver eventDriver = new EventFiringWebDriver(driver);

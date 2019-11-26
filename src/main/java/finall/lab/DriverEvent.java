@@ -88,12 +88,16 @@ public class DriverEvent implements WebDriverEventListener {
 
         @Override
         public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-
+                System.out.println("Вводим значение в " + webElement);
         }
 
         @Override
         public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-                System.out.println("Ввели данные - ");
+                if (charSequences == null) {
+                        System.out.println("Очистили поле -" + webElement);
+                } else {
+                        System.out.println("Ввели данные ");
+                }
         }
 
         @Override
