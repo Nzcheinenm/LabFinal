@@ -8,29 +8,56 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Класс для формы покупки.
+ */
 class TestToPageFour {
 
-        private final static String FIRST_NAME = "Ivan";
-        private final static String LAST_NAME = "Ivanov";
-        private final static String CARD_NUMBER = "3400993454993400";
+        /**
+         * Имя пассажира покупающего.
+         */
+        private static final String FIRST_NAME = "Ivan";
+        /**
+         * Фамилия пассажира покупающего.
+         */
+        private static final String LAST_NAME = "Ivanov";
+        /**
+         * Номер карты пассажира покупающего.
+         */
+        private static final String CARD_NUMBER = "3400993454993400";
 
-        private final static String FIRST_NAME_PASS = "Tanya";
-        private final static String LAST_NAME_PASS = "Ivanova";
+        /**
+         * Имя второго пассажира.
+         */
+        private static final String FIRST_NAME_PASS = "Tanya";
+        /**
+         * Фамилия второго пассажира.
+         */
+        private static final String LAST_NAME_PASS = "Ivanova";
 
-        private final static String ADRESS_BILL = "Kudryavceva, 56";
-        private final static String ADRESS_BILL_2 = "3k";
-        private final static String CITY_BILL = "Ryazan";
-        private final static String STATE_BILL = "Ryazan state";
-        private final static String CODE_BILL = "390000";
-        private final static String COUNTRY_BIL = "RUSSIA";
+        /**
+         * Адрес плательщика.
+         */
+        private static final String ADRESS_BILL = "Kudryavceva, 56";
+        private static final String ADRESS_BILL_2 = "3k";
+        private static final String CITY_BILL = "Ryazan";
+        private static final String STATE_BILL = "Ryazan state";
+        private static final String CODE_BILL = "390000";
+        private static final String COUNTRY_BIL = "RUSSIA";
 
-        private final static String ADRESS_DEL = "Leninckogo, 26";
-        private final static String ADRESS_DEL_2 = "45";
-        private final static String CITY_DEL = "Ryazan";
-        private final static String STATE_DEL = "Ryazan state";
-        private final static String CODE_DEL = "390000";
-        private final static String COUNTRY_DEL = "RUSSIA";
+        /**
+         * Адрес отправки.
+         */
+        private static final String ADRESS_DEL = "Leninckogo, 26";
+        private static final String ADRESS_DEL_2 = "45";
+        private static final String CITY_DEL = "Ryazan";
+        private static final String STATE_DEL = "Ryazan state";
+        private static final String CODE_DEL = "390000";
+        private static final String COUNTRY_DEL = "RUSSIA";
 
+        /**
+         * Инициализация драйвера.
+         */
         private WebDriver driver;
 
         @FindBy(xpath = ".//input[@name='passFirst0']")
@@ -69,7 +96,8 @@ class TestToPageFour {
         @FindBy(xpath = ".//input[@name='billZip']")
         private
         WebElement billingCode;
-        @FindBy(xpath = ".//select[@name='billCountry']//option[contains(text(),'" + COUNTRY_BIL + "')]")
+        @FindBy(xpath = ".//select[@name='billCountry']"
+            + "//option[contains(text(),'" + COUNTRY_BIL + "')]")
         private
         WebElement billingCountry;
         @FindBy(xpath = ".//input[@name='delAddress1']")
@@ -87,23 +115,26 @@ class TestToPageFour {
         @FindBy(xpath = ".//input[@name='delZip']")
         private
         WebElement deliveryCode;
-        @FindBy(xpath = ".//select[@name='delCountry']//option[contains(text(),'" + COUNTRY_DEL + "')]")
+        @FindBy(xpath = ".//select[@name='delCountry']"
+            + "//option[contains(text(),'" + COUNTRY_DEL + "')]")
         private
         WebElement deliveryCountry;
 
-        TestToPageFour(WebDriver driver) {
-                PageFactory.initElements(driver, this);
-                this.driver = driver;
+        TestToPageFour(final WebDriver driverMethod) {
+                PageFactory.initElements(driverMethod, this);
+                this.driver = driverMethod;
         }
 
-        private WebElement waitingForVisibly(WebElement element) {
+        private WebElement waitingForVisibly(final WebElement element) {
                 final WebDriverWait wait = new WebDriverWait(driver, 10);
                 return wait.until(ExpectedConditions.visibilityOf(element));
         }
 
-        private WebElement waitingForClick(WebElement element) {
-                final WebDriverWait wait = new WebDriverWait(driver, 10);
-                return wait.until(ExpectedConditions.elementToBeClickable(element));
+        private WebElement waitingForClick(final WebElement element) {
+                final WebDriverWait wait =
+                    new WebDriverWait(driver, 10);
+                return wait.until(ExpectedConditions
+                    .elementToBeClickable(element));
         }
 
         TestToPageFour buyFlight() {
@@ -117,8 +148,10 @@ class TestToPageFour {
 
         TestToPageFour buyFlightPassangersTwo() {
 
-                waitingForVisibly(passangersFirstName2).sendKeys(FIRST_NAME_PASS);
-                waitingForVisibly(passangersLastName2).sendKeys(LAST_NAME_PASS);
+                waitingForVisibly(passangersFirstName2)
+                    .sendKeys(FIRST_NAME_PASS);
+                waitingForVisibly(passangersLastName2)
+                    .sendKeys(LAST_NAME_PASS);
                 return this;
         }
 
@@ -156,13 +189,19 @@ class TestToPageFour {
 
         void clickToPurchase() {
                 try {
-                        final WebDriverWait wait = new WebDriverWait(driver, 10);
-                        wait.until(ExpectedConditions.elementToBeClickable(buyFligths)).click();
-                        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+                        final WebDriverWait wait =
+                            new WebDriverWait(driver, 10);
+                        wait.until(ExpectedConditions
+                            .elementToBeClickable(buyFligths)).click();
+                        Alert alert = wait
+                            .until(ExpectedConditions.alertIsPresent());
                         alert.accept();
-                        System.out.println("Всплывающее окно закрыто");
+                        System.out.println("Всплывающее "
+                            + "окно закрыто");
                 } catch (Throwable e) {
-                        System.err.println("Вспывающее окно в ожидании. " + e.getMessage());
+                        System.err.println("Вспывающее "
+                            + "окно в ожидании. "
+                            + e.getMessage());
                 } finally {
                         buyFligths.click();
                 }

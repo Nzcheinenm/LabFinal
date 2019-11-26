@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211ee2a9-9978-46e9-9eea-1db83337c913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/finall/lab/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_example_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_example_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/DriverEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/DriverEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageOne.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/DriverEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finall/lab/DriverEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageFour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finall/lab/TestToPageThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/finall/lab/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/finall/lab/MainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

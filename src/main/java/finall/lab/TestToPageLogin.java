@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Класс для авторизации.
+ */
 class TestToPageLogin {
 
 
@@ -22,16 +25,19 @@ class TestToPageLogin {
         private
         WebElement signIn;
 
-        TestToPageLogin(WebDriver driver) {
-                PageFactory.initElements(driver, this);
-                this.driver = driver;
+        TestToPageLogin(final WebDriver driverMethod) {
+                PageFactory.initElements(driverMethod, this);
+                this.driver = driverMethod;
         }
 
         void login(final String login, final String passwordLog) {
                 final WebDriverWait wait = new WebDriverWait(driver, 5);
-                wait.until(ExpectedConditions.visibilityOf(userName)).sendKeys(login);
-                wait.until(ExpectedConditions.visibilityOf(password)).sendKeys(passwordLog);
-                wait.until(ExpectedConditions.elementToBeClickable(signIn)).click();
+                wait.until(ExpectedConditions
+                    .visibilityOf(userName)).sendKeys(login);
+                wait.until(ExpectedConditions
+                    .visibilityOf(password)).sendKeys(passwordLog);
+                wait.until(ExpectedConditions
+                    .elementToBeClickable(signIn)).click();
         }
 
 

@@ -10,8 +10,14 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Класс теста.
+ */
 public class MainTest {
 
+        /**
+         * Инициализация драйвера.
+         */
         private WebDriver driver;
 
         @Test

@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Класс для страницы подбора билетов.
+ */
 class TestToPageTwo {
 
         /**
