@@ -102,6 +102,7 @@ class TestToPageTwo {
                 PageFactory.initElements(driverMethod, this);
                 this.driver = driverMethod;
         }
+
         private WebElement waiting(final WebElement element) {
                 final WebDriverWait wait = new WebDriverWait(driver,
                     10);

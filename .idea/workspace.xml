@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211ee2a9-9978-46e9-9eea-1db83337c913" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/TestToPageTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/finall/lab/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/finall/lab/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finall/lab/package-info.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

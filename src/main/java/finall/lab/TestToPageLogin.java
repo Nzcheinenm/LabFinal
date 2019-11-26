@@ -13,6 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 class TestToPageLogin {
 
 
+        /**
+         * Инициализация драйвера.
+         */
         private WebDriver driver;
 
         @FindBy(xpath = ".//input[@name='userName']")
